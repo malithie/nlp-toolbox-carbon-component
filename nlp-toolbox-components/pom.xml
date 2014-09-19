@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>nlp-toolbox</artifactId>
+        <groupId>org.wso2.siddhi</groupId>
+        <version>2.1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>nlp-toolbox-components</artifactId>
+    <packaging>pom</packaging>
+    <name>NLP Toolbox Components</name>
+    <modules>
+        <module>org.wso2.siddhi.extension.nlp</module>
+        <module>org.wso2.siddhi.extension.nlp.stanford</module>
+    </modules>
+
+    <repositories>
+        <repository>
+            <id>wso2-maven2-repository</id>
+            <name>WSO2 Maven2 Repository</name>
+            <url>http://dist.wso2.org/maven2</url>
+        </repository>
+    </repositories>
+
+
+</project>
