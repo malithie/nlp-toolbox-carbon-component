@@ -11,7 +11,7 @@
 
     <artifactId>nlp-toolbox-repository</artifactId>
     <name>NLP Toolbox Repository</name>
-    <!--<packaging>pom</packaging>-->
+    <packaging>pom</packaging>
 
     <build>
         <plugins>
